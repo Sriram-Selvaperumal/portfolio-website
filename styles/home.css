@@ -54,3 +54,6 @@ body{
     left: 30%;
     top: 20%;
 }
+#options div:hover{
+    cursor: pointer;
+}
