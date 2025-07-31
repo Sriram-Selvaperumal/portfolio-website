@@ -47,3 +47,31 @@ body{
     text-align: center;       
     font-size: 30px;   
 }
+#academics {
+    position: absolute;
+    color: white;
+    left: 30%;
+    top: 20%;
+}
+
+#academics table {
+    border-collapse: collapse;
+    width: 600px;
+    background-color: black;
+}
+
+#academics th,
+#academics td {
+    border: 1px solid white;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+#academics th {
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 18px;
+}
+
+#academics td {
+    font-size: 16px;
+}
