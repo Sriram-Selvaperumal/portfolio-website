@@ -33,7 +33,7 @@ body{
 #options{
     color: white;
     min-height: 500px;
-    display: flex;
+    display: inline-block;
     flex-direction: column;
     justify-content: flex-start;
 }
@@ -46,4 +46,11 @@ body{
     align-items: center;       
     text-align: center;       
     font-size: 30px;   
+}
+#details{
+    position: absolute;
+    color: white;
+    display: inline-block;
+    left: 30%;
+    top: 20%;
 }
